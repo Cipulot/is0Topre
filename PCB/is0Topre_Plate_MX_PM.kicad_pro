@@ -160,7 +160,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Assets/dev/is0Topre_Plate_MX_PM.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""

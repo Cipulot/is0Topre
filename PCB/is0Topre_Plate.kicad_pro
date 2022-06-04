@@ -160,7 +160,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Assets/dev/is0Topre_Plate.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
