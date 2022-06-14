@@ -21,6 +21,8 @@ Below is the KLE of the supported layout:
   * Fused
   * ESD protection
 
+**Addition: an empty spot for a 3.5x3.5mm SK series LED has been added to the back of the PCB, in case you want to manually add a bit of lighting.
+
 ## Renders and Prototypes
 
 ### is0Topre PCB
@@ -43,11 +45,15 @@ MX plate mounted stabilizer compatible plate:
 
 ![is0Topre Plate MX Render](/Assets/images/is0Topre_Plate_MX_PM.png)
 
+#### Prototype
+
+![is0Topre Proto](/Assets/images/is0Topre_PCB_Proto.png)
+
 ## WIP
 
-Firmware is complete. Waiting for prototypes to validate it.
+Atmel MCU based firmware is validated, you can find the precompiled `.hex` (Vial compatible) and `.json` file for VIA in the firmware folder.
 
-Updates to come.
+STM32 based MCU version is in development.
 
 ## Copyright notice
 
