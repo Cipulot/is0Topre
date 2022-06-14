@@ -61,7 +61,7 @@
     )
     (pad_to_mask_clearance 0)
     (aux_axis_origin 85.24875 36.67125)
-    (grid_origin 73.29875 59.13125)
+    (grid_origin 85.24875 36.67125)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -5447,10 +5447,10 @@
       (net 39 "LED") (pinfunction "DIN") (pintype "input") (tstamp b1c805ee-2bc1-4c0b-9862-231d06f65ce6))
     (pad "4" smd rect (at 1.75 0.875 180) (size 1.6 0.85) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "VCC") (pinfunction "VDD") (pintype "power_in") (tstamp 35454484-d413-4f13-bc74-51a04f5dfd7f))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/cipulot_parts.3dshapes/SMD3535 RGB.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
