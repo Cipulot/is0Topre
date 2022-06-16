@@ -1,4 +1,4 @@
-21169818493950541
+21176441272547363
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89523,6 +89523,20 @@ USB-C-12-Pin-MidMount
 16
 13
 cipulot_parts
+USB-C_Female_12401X
+https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/12401610E4%232A_Dwg.pdf
+
+0
+28
+25
+cipulot_parts
+USB-C_Female_E8124-015-01
+https://www.digikey.com/product-detail/en/pulse-electronics-network/E8124-015-01/553-3195-2-ND/5800435
+
+0
+32
+25
+cipulot_parts
 USB-Mini-B_ LCSC-C46398
 
 
@@ -89657,6 +89671,20 @@ ecs_pad_4port
 3
 cipulot_parts
 ecs_pad_no_ring
+ StepUp generated footprint
+
+0
+4
+3
+cipulot_parts
+ecs_pad_no_ring_1u&1.25u&1.5u
+ StepUp generated footprint
+
+0
+4
+3
+cipulot_parts
+ecs_pad_no_ring_stepped&normal
  StepUp generated footprint
 
 0
