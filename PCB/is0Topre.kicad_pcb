@@ -550,7 +550,7 @@
 
   (footprint "LOGO" (layer "F.Cu")
     (tedit 0) (tstamp 17a6423d-c016-4a9a-bc3e-f704599ab19c)
-    (at 99.545928 73.509504)
+    (at 99.545928 71.878991)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -1665,7 +1665,7 @@
 
   (footprint "LOGO" (layer "F.Cu")
     (tedit 0) (tstamp 3540ffae-c583-4933-9381-c4edfb723c44)
-    (at 99.545928 76.070754)
+    (at 99.545928 74.440241)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -3819,7 +3819,7 @@
 
   (footprint "LOGO" (layer "F.Cu")
     (tedit 0) (tstamp 68fda6f9-ed44-4794-8649-08451a96d00a)
-    (at 99.545928 78.630754)
+    (at 99.545928 77.000241)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -6762,6 +6762,22 @@
     )
   )
 
+  (gr_arc (start 94.48875 37.64125) (mid 94.708883 37.10903) (end 95.241578 36.890071) (layer "F.SilkS") (width 0.15) (tstamp 0a34c4e5-47c9-40e7-8327-b7c105fba209))
+  (gr_line (start 103.841578 36.890071) (end 95.241578 36.890071) (layer "F.SilkS") (width 0.15) (tstamp 1c8734c3-d3b0-4736-a428-d677538b8ff4))
+  (gr_line (start 104.59875 42.966962) (end 104.59875 37.64125) (layer "F.SilkS") (width 0.15) (tstamp 2a870f6a-1efb-4758-b8a9-82838c66c0f1))
+  (gr_arc (start 95.245922 86.10125) (mid 94.711324 85.882899) (end 94.48875 85.350071) (layer "F.SilkS") (width 0.15) (tstamp 3192d842-e9fe-4389-b8fd-2e870b45accb))
+  (gr_arc (start 94.48875 80.024359) (mid 94.707661 79.492691) (end 95.2384 79.271538) (layer "F.SilkS") (width 0.15) (tstamp 320be4e9-b051-4faa-a136-7eb7cc6aaa1d))
+  (gr_line (start 95.2384 79.271538) (end 103.845929 79.271538) (layer "F.SilkS") (width 0.15) (tstamp 503a7b75-6410-4377-aa8a-8cbf426a8fb4))
+  (gr_arc (start 104.59875 42.966962) (mid 104.379839 43.49863) (end 103.8491 43.719783) (layer "F.SilkS") (width 0.15) (tstamp 52f6358e-8636-4e38-a0ad-fc883ac0f521))
+  (gr_line (start 104.59875 80.021188) (end 104.59875 85.350071) (layer "F.SilkS") (width 0.15) (tstamp 586c49fa-d85d-4440-88f5-07662e47292c))
+  (gr_line (start 94.48875 42.970133) (end 94.48875 37.64125) (layer "F.SilkS") (width 0.15) (tstamp 663d5654-b4f8-4f52-96ce-db0dab132973))
+  (gr_arc (start 95.241571 43.719783) (mid 94.709893 43.500876) (end 94.48875 42.970133) (layer "F.SilkS") (width 0.15) (tstamp 692c90aa-ebab-4685-b6bf-c000b730c2da))
+  (gr_arc (start 103.841578 36.890071) (mid 104.376144 37.108436) (end 104.59875 37.64125) (layer "F.SilkS") (width 0.15) (tstamp 74a5ce9b-892c-48e8-9c3f-0d2da6fb02ed))
+  (gr_line (start 95.245922 86.10125) (end 103.845922 86.10125) (layer "F.SilkS") (width 0.15) (tstamp 8749119a-a5d9-4243-9296-32b16cae1989))
+  (gr_arc (start 104.59875 85.350071) (mid 104.37862 85.882288) (end 103.845922 86.10125) (layer "F.SilkS") (width 0.15) (tstamp b6f643e5-b5b1-41ea-bb15-bd6aea00105d))
+  (gr_line (start 94.48875 80.024359) (end 94.48875 85.350071) (layer "F.SilkS") (width 0.15) (tstamp c92673cd-8d77-4550-a6a5-246d462884de))
+  (gr_line (start 103.8491 43.719783) (end 95.241571 43.719783) (layer "F.SilkS") (width 0.15) (tstamp d79aa61c-2700-4b16-946b-f1bdec2079d5))
+  (gr_arc (start 103.845929 79.271538) (mid 104.377605 79.490442) (end 104.59875 80.021188) (layer "F.SilkS") (width 0.15) (tstamp f07c633f-a83e-45f5-b0e3-d1c46fd6bba5))
   (gr_line (start 93.245927 42.449999) (end 87.258428 42.449999) (layer "Edge.Cuts") (width 0.1) (tstamp 041ab264-57a0-45b4-9aca-4e2e046c5629))
   (gr_line (start 95.245922 86.350071) (end 103.845922 86.350071) (layer "Edge.Cuts") (width 0.1) (tstamp 06834ec0-f12c-4a1f-b309-d1c296614f45))
   (gr_arc (start 94.245927 37.649927) (mid 94.53882 36.94282) (end 95.245927 36.649927) (layer "Edge.Cuts") (width 0.1) (tstamp 09e8a982-3a94-46fe-a2d0-595947f66e1a))
@@ -6794,7 +6810,13 @@
   (gr_text "PCB by Cipulot" (at 112.552178 55.423641 90) (layer "B.SilkS") (tstamp 21a3dc80-46da-43d8-80c7-53234cee8b6a)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "Tape\n" (at 99.541578 40.304106) (layer "F.SilkS") (tstamp 645a4f2d-6d66-434c-bdcd-903b4cc26ab8)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "Reset" (at 86.517178 60.521801 270) (layer "F.SilkS") (tstamp ba6a9462-fb68-4e3d-94aa-abae0a1bd570)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "Tape" (at 99.541578 82.68563) (layer "F.SilkS") (tstamp f531a53f-0cca-4272-aad2-fe6ee7c01a19)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
