@@ -55,6 +55,22 @@ Atmel MCU based firmware is validated, you can find the precompiled `.hex` (Vial
 
 STM32 based MCU version is in development.
 
+## Compatibility with is0 case
+
+Given the difference in height and mounting system some modifications are needed.
+
+At the time of ordering teh PCBs be sure to use the following specs:
+
+- 1.2mm thickness for the main PCB
+- 0.6mm for the plates
+
+In order to havethe correct fit place in the marked spots adhesive tape, specifically:
+
+- 2pcs, 0.4mm thick on the main PCB
+- 4pcs, 0.1mm thick on the plates
+
+These will ensure that all the tollerances are met and a secure fit is achieved.
+
 ## Copyright notice
 
 This project is released under the MIT License. For the license, please refer to the LICENCE.md file.
