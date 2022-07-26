@@ -18,6 +18,7 @@
 
 #include "quantum.h"
 #include "analog.h"
+#include "atomic_util.h"
 #include "print.h"
 
 #define WAIT_DISCHARGE()
@@ -53,9 +54,6 @@ int ecsm_init(ecsm_config_t const* const ecsm_config) {
     // initialize drive lines
     init_row();
 
-    // set analog reference
-    analogReference(ADC_REF_POWER);
-
     return 0;
 }
 
@@ -63,20 +61,20 @@ int ecsm_init(ecsm_config_t const* const ecsm_config) {
 static uint16_t ecsm_readkey_raw(void) {
     uint16_t sw_value = 0;
 
+    discharge_capacitor();
+
     clear_all_row_pin();
 
-    cli();
-
-    charge_capacitor();
-    WAIT_CHARGE();
-    //wait_ms(0.001);
-
-    sw_value = analogReadPin(ANALOG_PORT);
-
-    sei();
-
-    discharge_capacitor();
     WAIT_DISCHARGE();
+
+    // chSysLock();
+    ATOMIC_BLOCK_FORCEON {
+        charge_capacitor();
+
+        WAIT_CHARGE();
+        sw_value = analogReadPin(ANALOG_PORT);
+    }
+    // chSysUnlock();
 
     return sw_value;
 }
@@ -104,8 +102,12 @@ static bool ecsm_update_key(matrix_row_t* current_row, uint8_t row, uint8_t col,
 bool ecsm_matrix_scan(matrix_row_t current_matrix[]) {
     bool updated = false;
 
+    discharge_capacitor();
+
     ecsm_sw_value[0][0] = ecsm_readkey_raw();
     updated |= ecsm_update_key(&current_matrix[0], 0, 0, ecsm_sw_value[0][0]);
+
+    discharge_capacitor();
 
     return updated;
 }

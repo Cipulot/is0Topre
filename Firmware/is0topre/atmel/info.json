@@ -1,0 +1,19 @@
+{
+    "keyboard_name": "is0Topre (32u4)",
+    "manufacturer": "Cipulot",
+    "url": "",
+    "maintainer": "Cipulot",
+    "usb": {
+        "vid": "0x6369",
+        "pid": "0x6B7C",
+        "device_version": "0.0.1"
+    },
+
+    "layouts": {
+        "LAYOUT_all": {
+            "layout": [
+                {"x": 0, "y": 0}
+            ]
+        }
+    }
+}

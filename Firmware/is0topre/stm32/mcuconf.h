@@ -1,5 +1,5 @@
 /* Copyright 2022 Cipulot
-
+ *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 2 of the License, or
@@ -14,6 +14,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include QMK_KEYBOARD_H
+#pragma once
 
-const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {LAYOUT_all(KC_ENT)};
+#include_next "mcuconf.h"
+
+#undef STM32_ADC_USE_ADC1
+#define STM32_ADC_USE_ADC1 TRUE
