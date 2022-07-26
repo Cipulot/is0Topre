@@ -1,0 +1,28 @@
+{
+    "name": "is0Topre",
+    "url": "",
+    "vendorId": "0x6369",
+    "productId": "0x6B7C",
+    "maintainer": "Cipulot",
+    "lighting": "none",
+    "matrix": {
+        "rows": 1,
+        "cols": 1
+    },
+    "layouts": {
+        "keymap": [
+          [
+            {
+              "x": 0.25,
+              "c": "#aaaaaa",
+              "w": 1.25,
+              "h": 2,
+              "w2": 1.5,
+              "h2": 1,
+              "x2": -0.25
+            },
+            "0,0"
+          ]
+        ]
+    }
+}
