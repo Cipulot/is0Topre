@@ -23,5 +23,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ANALOG_PORT A2
 
 #define MATRIX_ROW_PIN B4
-
-#define UNUSED_PINS
