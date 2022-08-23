@@ -49,6 +49,12 @@ MX plate mounted stabilizer compatible plate:
 
 ![is0Topre Proto](/Assets/images/is0Topre_PCB_Proto.png)
 
+![is0Topre Proto Front](/Assets/images/PCB_proto_front.png)
+
+![is0Topre Proto Back](/Assets/images/PCB_proto_back.png)
+
+![is0Topre Plate Front](/Assets/images/Plate_proto_front.png)
+
 ## WIP
 
 Atmel MCU based firmware is validated, you can find the precompiled `.hex` (Vial compatible) and `.json` file for VIA in the firmware folder.
@@ -59,12 +65,12 @@ STM32 based MCU version is in development.
 
 Given the difference in height and mounting system some modifications are needed.
 
-At the time of ordering teh PCBs be sure to use the following specs:
+At the time of ordering the PCBs be sure to use the following specs:
 
 - 1.2mm thickness for the main PCB
 - 0.6mm for the plates
 
-In order to havethe correct fit place in the marked spots adhesive tape, specifically:
+In order to have the correct fit place in the marked spots adhesive tape, specifically:
 
 - 2pcs, 0.4mm thick on the main PCB
 - 4pcs, 0.1mm thick on the plates
