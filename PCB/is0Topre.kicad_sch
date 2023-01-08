@@ -2911,7 +2911,7 @@
     (uuid a624124f-26d6-4381-9f5a-a6c85c0560d9)
     (property "Reference" "SW2" (id 0) (at 108.585 29.0662 0))
     (property "Value" "EC_SW" (id 1) (at 108.585 31.6031 0))
-    (property "Footprint" "cipulot_parts:ecs_pad_no_ring" (id 2) (at 108.585 34.925 0)
+    (property "Footprint" "cipulot_parts:ecs_pad_2U_no_ring" (id 2) (at 108.585 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 108.585 34.925 0))
@@ -3477,7 +3477,7 @@
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "cipulot_parts:Jumper-UserFriendly-Small")
     )
     (path "/a624124f-26d6-4381-9f5a-a6c85c0560d9"
-      (reference "SW2") (unit 1) (value "EC_SW") (footprint "cipulot_parts:ecs_pad_no_ring")
+      (reference "SW2") (unit 1) (value "EC_SW") (footprint "cipulot_parts:ecs_pad_2U_no_ring")
     )
     (path "/9a2e3747-4807-449c-9a6e-97403e63f36c"
       (reference "U1") (unit 1) (value "ATmega32U4-M") (footprint "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm")
