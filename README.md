@@ -53,7 +53,7 @@ MX plate mounted stabilizer compatible plate:
 
 ![is0Topre Proto Back](/Assets/images/PCB_proto_back.png)
 
-![is0Topre Plate Front](/Assets/images/Plate_proto_front.png)
+![is0Topre Plate Front](/Assets/images/plate_proto_front.png)
 
 ## WIP
 
