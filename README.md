@@ -76,7 +76,3 @@ In order to have the correct fit place in the marked spots adhesive tape, specif
 - 4pcs, 0.1mm thick on the plates
 
 These will ensure that all the tollerances are met and a secure fit is achieved.
-
-## Copyright notice
-
-This project is released under the MIT License. For the license, please refer to the LICENCE.md file.
