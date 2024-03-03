@@ -18,8 +18,8 @@ Below is the KLE of the supported layout:
 - Connector: USB Type C
 - Firmware compatibility: QMK (with VIA/VIAL support)
 - Protection hardware:
-  * Fused
-  * ESD protection
+  - Fused
+  - ESD protection
 
 **Addition: an empty spot for a 3.5x3.5mm SK series LED has been added to the back of the PCB, in case you want to manually add a bit of lighting.
 
@@ -76,3 +76,7 @@ In order to have the correct fit place in the marked spots adhesive tape, specif
 - 4pcs, 0.1mm thick on the plates
 
 These will ensure that all the tollerances are met and a secure fit is achieved.
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
